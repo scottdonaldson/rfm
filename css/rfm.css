@@ -17,6 +17,7 @@
 }
 
 .preload * {
+	transition: none !important;
   -webkit-transition: none !important;
   -moz-transition: none !important;
   -ms-transition: none !important;
@@ -56,7 +57,7 @@
 	-webkit-column-count: 2;
 	-webkit-column-gap: 10px;
 	column-count: 2;
-	column-gap: 10px; 
+	column-gap: 10px;
 }
 
 .quad-column {
@@ -65,7 +66,7 @@
 	-webkit-column-count: 4;
 	-webkit-column-gap: 3px;
 	column-count: 4;
-	column-gap: 3px; 
+	column-gap: 3px;
 }
 
 .quad-column ul {
@@ -211,8 +212,8 @@ header .menu li {
 }
 
 .m-1 {
-	left: -20px;
-	top: 38px;
+	left: 26px;
+	top: 28px;
 	transform: rotate(-45deg);
 		-ms-transform:rotate(-45deg); /* IE 9 */
 		-moz-transform:rotate(-45deg); /* Firefox */
@@ -221,8 +222,8 @@ header .menu li {
 }
 
 .m-2 {
-	left: -25px;
-	top: 29.5px;
+	left: 21px;
+	top: 19.5px;
 	transform: rotate(-15deg);
 		-ms-transform:rotate(-15deg); /* IE 9 */
 		-moz-transform:rotate(-15deg); /* Firefox */
@@ -231,8 +232,8 @@ header .menu li {
 }
 
 .m-3 {
-	left: -26px;
-	top: 19px;
+	left: 20px;
+	top: 9px;
 	transform: rotate(15deg);
 		-ms-transform:rotate(15deg); /* IE 9 */
 		-moz-transform:rotate(15deg); /* Firefox */
@@ -241,8 +242,8 @@ header .menu li {
 }
 
 .m-4 {
-	left: -21px;
-	top: 9px;
+	left: 25px;
+	top: -1px;
 	transform: rotate(45deg);
 		-ms-transform:rotate(45deg); /* IE 9 */
 		-moz-transform:rotate(45deg); /* Firefox */
@@ -251,8 +252,8 @@ header .menu li {
 }
 
 .m-5 {
-	left: -11px;
-	top: 3px;
+	left: 35px;
+	top: -7px;
 	transform: rotate(75deg);
 		-ms-transform:rotate(75deg); /* IE 9 */
 		-moz-transform:rotate(75deg); /* Firefox */
@@ -261,8 +262,8 @@ header .menu li {
 }
 
 .m-6 {
-	left: 1.5px;
-	top: 3px;
+	left: 47.5px;
+	top: -7px;
 	transform: rotate(105deg);
 		-ms-transform:rotate(105deg); /* IE 9 */
 		-moz-transform:rotate(105deg); /* Firefox */
@@ -271,8 +272,8 @@ header .menu li {
 }
 
 .m-7 {
-	left: 12px;
-	top: 9px;
+	left: 58px;
+	top: -1px;
 	transform: rotate(135deg);
 		-ms-transform:rotate(135deg); /* IE 9 */
 		-moz-transform:rotate(135deg); /* Firefox */
@@ -281,8 +282,8 @@ header .menu li {
 }
 
 .m-8 {
-	left: 17px;
-	top: 19px;
+	left: 63px;
+	top: 9px;
 	transform: rotate(165deg);
 		-ms-transform:rotate(165deg); /* IE 9 */
 		-moz-transform:rotate(165deg); /* Firefox */
@@ -291,8 +292,8 @@ header .menu li {
 }
 
 .m-9 {
-	left: 17px;
-	top: 30px;
+	left: 63px;
+	top: 20px;
 	transform: rotate(195deg);
 		-ms-transform:rotate(195deg); /* IE 9 */
 		-moz-transform:rotate(195deg); /* Firefox */
@@ -301,8 +302,8 @@ header .menu li {
 }
 
 .m-10 {
-	left: 12.5px;
-	top: 38px;
+	left: 58.5px;
+	top: 28px;
 	transform: rotate(225deg);
 		-ms-transform:rotate(225deg); /* IE 9 */
 		-moz-transform:rotate(225deg); /* Firefox */
@@ -312,6 +313,7 @@ header .menu li {
 
 header .menu li a,
 header .menu li a:visited {
+	display: block;
 	font-size: 11px;
 	letter-spacing: 0.05em;
 	position: relative;
@@ -347,13 +349,13 @@ header .menu li a span {
 		50%  { -ms-transform: rotate(215deg); }
 		100% { -ms-transform: rotate(-45deg); }
 	}
-	
+
 	@-o-keyframes spin {
 		0% 	 { }
 		50%  { -o-transform: rotate(215deg); }
 		100% { -o-transform: rotate(-45deg); }
 	}
-	
+
 	@-webkit-keyframes spin {
 		0% 	 { }
 		50%  { -webkit-transform: rotate(215deg); }
