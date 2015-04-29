@@ -1,1 +1,4 @@
 .DS_Store
+.sass-cache
+node_modules
+fonts/FranklinGothic-Demi.otf

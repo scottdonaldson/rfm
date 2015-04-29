@@ -11,12 +11,10 @@
 	<meta name="description" content="">
     <meta name="viewport" content="width=device-width">
 
-    <link rel="stylesheet" href="<?php echo bloginfo('stylesheet_url'); ?>" />
-    <link rel="stylesheet" href="<?php echo bloginfo('template_url'); ?>/css/rfm.css">
-    <link rel="stylesheet" href="<?php echo bloginfo('template_url'); ?>/css/media.css">
+    <link rel="stylesheet" href="<?php echo bloginfo('template_url'); ?>/css/style.css">
 
     <script src="<?php echo bloginfo('template_url'); ?>/js/libs/modernizr-2.5.3.min.js"></script>
-    
+
     <?php wp_head(); ?>
 </head>
 <body <?php body_class('preload'); ?>>
@@ -32,9 +30,9 @@
 		<a href="<?php echo home_url(); ?>" rel="home" title="Rare Form Mastering">
 	        <img src="<?php echo bloginfo('template_url'); ?>/images/logo.png" height="auto" width="160" />
     	</a>
-            
+
         <?php wp_nav_menu(array( 'theme_location' => 'primary')); ?>
-        
+
         <div id="welcome">
         	<span><span>W</span></span>
             <span><span>E</span></span>
