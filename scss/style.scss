@@ -121,6 +121,7 @@ header .menu {
 }
 
 header .menu li {
+	background: url(../images/dial.svg) no-repeat 50% 5px;
 	float: left;
 	height: 70px;
 	list-style-type: none;
@@ -170,6 +171,7 @@ header .menu li {
 
 .mark {
 	background: #818278;
+	display: none !important;
 	height: 2px;
 	width: 8px;
 	position: absolute;
@@ -368,7 +370,6 @@ footer {
 
 footer .menu {
 	margin: 0;
-	height: 32px;
 	padding: 0;
 	text-align: center;
 }
@@ -379,6 +380,10 @@ footer .menu li {
 	line-height: 32px;
 	padding-right: 32px;
 	list-style-type: none;
+
+	@media screen and (max-width: 900px) {
+		background: transparent none;
+	}
 }
 
 footer .menu li:first-child {
